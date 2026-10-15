@@ -4,7 +4,7 @@
 
 A personal portfolio site for **Nabeeha Jahir**, a Computer Science student (CS Honors, expected May 2028) at Stony Brook University. It shows my projects, experience, and a little bit of who I am, and it has a small game hidden inside.
 
-**Live site:** https://nabeehaj.github.io/YOUR-REPO-NAME/
+**Live site:** https://nabeehaj.github.io/Personal-Portfolio/.
 ---
 
 ## What's on the site
