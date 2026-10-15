@@ -26,7 +26,7 @@ A personal portfolio site for **Nabeeha Jahir**, a Computer Science student (CS 
 | Project | Link |
 | --- | --- |
 | Zakat Calculator | [Live site](https://nabeehaj.github.io/Zakaat-Calculator/) |
-| Alien Reflex Game | [Code](https://github.com/Nabeehaj/alien-reflex-game) |
+| Alien Reflex Game | The code is in the website itself (see the **Play** section) |
 | RoyaltGold Storefront | [Repo](https://github.com/Nabeehaj/RoyalTGold) |
 
 ## Built with
@@ -40,40 +40,49 @@ A personal portfolio site for **Nabeeha Jahir**, a Computer Science student (CS 
 
 ```
 .
-├── index.html                  # the whole site (HTML, CSS, JS, and my photo)
-├── Nabeeha_Jahir_Resume.pdf    # linked from the Resume buttons
+├── index.html    # the whole site: HTML, CSS, and JavaScript
 └── README.md
 ```
 
-My photo is embedded inside `index.html`, so there is no separate image file to upload.
+## Where to find the code
 
-## Run it locally
+Everything lives in `index.html`. Use your browser's find (Ctrl+F or Cmd+F) or your editor's search for the comment names below to jump to each part.
 
-No install needed. Just open `index.html` in your browser.
+**JavaScript** (the `<script>` block near the bottom of the file)
 
-To use a local server instead:
+| Feature | Search for |
+| --- | --- |
+| Alien Reflex game | `Alien Reflex` |
+| Hero dot grid (mouse repel and click ripples) | `hero dot grid` |
+| Footer dot grid | `footer dot grid` |
+| Photo arch tilt | `arch parallax tilt` |
+| Moving skills bar | `marquee that speeds up` |
+| Experience timeline that fills as you scroll | `experience timeline that draws itself` |
+| Project images tilting toward the cursor | `project art tilts` |
+| Magnetic buttons | `magnetic buttons` |
+| Letter-by-letter headline animation | `text splitter` |
+| Intro loader | `intro loader` |
+| Count-up numbers | `count-ups` |
+| Project carousel | `carousel` |
+| "Read more" About story | `collapsible About story` |
+| Contact box that opens your email | `opens a pre-filled email` |
+| Rotating announcement bar | `announcement bar rotates` |
 
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
+**CSS** (the `<style>` block at the top)
 
-## Deploy with GitHub Pages
+| Feature | Search for |
+| --- | --- |
+| Dark and light theme colors | `Noir` (the `:root` variables) |
+| Hero and photo arch | `/* hero */` |
+| Project cards and image color reveal | `project carousel` |
+| About and experience layout | `about + experience` |
+| Game styling | `/* game */` |
+| Contact and footer | `contact + footer` |
+| Floating GitHub and LinkedIn icons | `floating social links` |
 
-1. Put `index.html` and `Nabeeha_Jahir_Resume.pdf` in the root of the repo.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select the `main` branch and the `/ (root)` folder, then save.
-5. Wait a minute or two. Your site will be at `https://<username>.github.io/<repo-name>/`.
+**HTML sections** (search for the `id`)
 
-If the repo is named `<username>.github.io`, the site is served at `https://<username>.github.io/`.
-
-## Make it yours
-
-- **Photo:** search `index.html` for the `<img src="data:image/jpeg;base64,...` inside `id="arch"` and swap it for `<img src="me.jpg" alt="...">` if you'd rather use a separate file.
-- **Resume:** replace `Nabeeha_Jahir_Resume.pdf` and keep the same file name, or update the three links that point to it.
-- **Colors:** the theme colors are CSS variables at the top of the `<style>` block (`:root` for the dark theme, `[data-theme="blush"]` for the light one).
-- **Game:** the Alien Reflex code is in the `<script>` block under the comment `Alien Reflex`.
+`id="hero"`, `id="projects"`, `id="about"`, `id="experience"`, `id="play"`, `id="contact"`
 
 ## A note on how it was made
 
