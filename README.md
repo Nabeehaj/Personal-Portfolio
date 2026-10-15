@@ -5,8 +5,6 @@
 A personal portfolio site for **Nabeeha Jahir**, a Computer Science student (CS Honors, expected May 2028) at Stony Brook University. It shows my projects, experience, and a little bit of who I am, and it has a small game hidden inside.
 
 **Live site:** https://nabeehaj.github.io/YOUR-REPO-NAME/
-*(replace with your real GitHub Pages link)*
-
 ---
 
 ## What's on the site
@@ -86,7 +84,7 @@ Everything lives in `index.html`. Use your browser's find (Ctrl+F or Cmd+F) or y
 
 ## A note on how it was made
 
-I wrote my own story and the text on this site. AI helped me build the ambience, meaning the design, animations, and code, because I cared most about the impression the site gives and wanted help getting there. It took many tries and themes (even an ocean one) before I landed on something that felt like me.
+Alongside my own vision, AI helped me build the ambience, meaning the design, and animations.
 
 ## Contact
 
@@ -94,4 +92,3 @@ I wrote my own story and the text on this site. AI helped me build the ambience,
 - LinkedIn: [linkedin.com/in/nabeehaj](https://www.linkedin.com/in/nabeehaj/)
 - GitHub: [github.com/Nabeehaj](https://github.com/Nabeehaj)
 
-© Nabeeha Jahir
