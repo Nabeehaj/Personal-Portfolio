@@ -428,8 +428,8 @@ $$('[data-resume]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault()
 /* contact: opens a pre-filled email */
 $('#mf').onsubmit=e=>{e.preventDefault();const n=$('#note').value.trim();
   const q='to=nabj.ny21@gmail.com&su='+encodeURIComponent('Hello from your portfolio')+'&body='+encodeURIComponent(n);
-  const w=window.open('https://mail.google.com/mail/?view=cm&fs=1&'+q,'_blank','noopener');
-  if(!w)location.href='mailto:nabj.ny21@gmail.com?subject='+encodeURIComponent('Hello from your portfolio')+'&body='+encodeURIComponent(n)};
+    const a=document.createElement('a');a.href='https://mail.google.com/mail/?view=cm&fs=1&'+q;a.target='_blank';a.rel='noopener noreferrer';
+  document.body.appendChild(a);a.click();a.remove()};
 $('#alt').addEventListener('click',e=>{e.currentTarget.href='mailto:nabj.ny21@gmail.com?subject='+encodeURIComponent('Hello from your portfolio')+'&body='+encodeURIComponent($('#note').value.trim())});
 
 /* Alien Reflex: 9 tiles, two entity types, two concurrent spawn cycles, spawns never overlap */
